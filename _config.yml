@@ -1,0 +1,22 @@
+title: "Pronóstico de agua y planificación de siembras bajo sequía en Sabanagrande, Atlántico"
+author: "Edwin Yunis y Jairo Serrano — Maestría en Ingeniería Industrial"
+copyright: "2026"
+
+# Los notebooks se ejecutan en Jupyter y se guardan con sus salidas;
+# el libro muestra esas salidas. Cambiar a "cache" si se quiere que el
+# libro ejecute todo al compilar (la descarga de NASA POWER tarda varios minutos).
+execute:
+  execute_notebooks: "off"
+  timeout: 3600
+
+parse:
+  myst_enable_extensions:
+    - dollarmath
+    - amsmath
+    - colon_fence
+
+sphinx:
+  config:
+    language: es
+
+exclude_patterns: [data/*, docs/*, _build/*, "**.ipynb_checkpoints", ml_venv/*, README.md, capitulos/03_planificador.md, notebooks/00_construccion_dataset.ipynb]

@@ -1,0 +1,23 @@
+format: jb-book
+root: intro
+parts:
+  - caption: Planteamiento
+    chapters:
+      - file: capitulos/01_problema
+      - file: capitulos/02_marco_referencia
+  - caption: Base de datos y análisis exploratorio (datos del Excel)
+    chapters:
+      - file: notebooks/00b_dataset_un_sitio
+      - file: notebooks/01_base_de_datos
+      - file: notebooks/02_eda
+  - caption: Modelo de regresión de la lluvia
+    chapters:
+      - file: notebooks/03_modelo_base
+  - caption: Análisis final (constantes de la finca)
+    chapters:
+      - file: capitulos/04_factores_constantes
+      - file: notebooks/04_optimizacion
+  - caption: Cierre
+    chapters:
+      - file: capitulos/limitaciones
+      - file: capitulos/referencias

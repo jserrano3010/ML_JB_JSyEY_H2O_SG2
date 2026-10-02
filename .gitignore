@@ -1,0 +1,8 @@
+_build/
+__pycache__/
+.ipynb_checkpoints/
+# Archivos generados por Jupyter Book
+# Archivos temporales de Python
+*.pyc
+# Archivos de entorno y secretos
+.env
